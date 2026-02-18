@@ -1,0 +1,64 @@
+body {
+    background: #292E49;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #536976,#292E49);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+    to top,
+    #536976,#292E49
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Bitcount Grid Double", sans-serif;
+}
+
+button {
+    padding: 100px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    animation-name: mainBtn;
+    animation-duration: infinite;
+    border-radius: 50px;
+    border: 5px solid #000;
+    background-color: #4a4a4a;
+    animation-duration: 3s;
+}
+
+@keyframes mainBtn {
+    from {background-color: #ff0000;}
+    to {background-color: #4a4a4a;}
+}
+
+button:hover {
+    background-color: #00ff00;
+}
+
+
+.active {
+    background: #4169E1;  /* fallback for old browsers */
+    background: #4169E1;  /* Chrome 10-25, Safari 5.1-6 */
+    background: #4169E1; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#activity {
+    background-color: #f7b733;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.copyright-info {
+    padding-top: 15px;
+    color: #000;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
